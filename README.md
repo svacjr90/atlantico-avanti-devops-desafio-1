@@ -106,7 +106,7 @@ Foi feita uma alteração na linha `config.vm.box = "base"` para utilizar a box 
 
 ## 3 Network
 
-Foi feita uma alteraçã na linha 40, onde ela foi descomentada para permitir que uma nova placa de rede seja criada em modo "brigde":
+Foi feita uma alteração na linha 40, onde ela foi descomentada para permitir que uma nova placa de rede seja criada em modo "brigde":
 
 ![Network](./images/03.png)
 
@@ -130,7 +130,7 @@ Foi feito o acesso remoto na maquina virtual com o comando `vagrant ssh`
 
 ## 7 Atualização do sistema da VM
 
-Foram feitas as atualizações do sistema operacional e blibiotecas utilizandos os seguintes comandos:
+Foram feitas as atualizações do sistema operacional e bibliotecas utilizando os seguintes comandos:
 
 
 ```bash
@@ -154,7 +154,7 @@ systemctl status apache2
 
 ## 9 Clone da aplicação
 
-Foi ultilizado o clone da aplicação no projéto como segue o comando:
+Foi utilizado o clone da aplicação no projeto como segue o comando:
 
 ```bash
 sudo git clone https://github.com/luizcarlos16/mundo-invertido.git
@@ -183,12 +183,12 @@ O IP verificado foi 192.168.0.26:
 
 E a aplicação ficou disponível através do webserver Apache e do network no modo bridge acessando por esse IP, conforme a imagem abaixo:
 
-![Resultado final](./images/10.png)
+![Resultado final](./images/11.png)
 
 
 ## 11 Desligando a VM
 
-Utilizou os comandos abaixo para se desconectar da VM, desligá-la e destruí-la.
+Utilizei os comandos abaixo para se desconectar da VM, desligá-la e destruí-la.
 
-![Destruindo](./images/11.png)
+![Destruindo](./images/12.png)
 
